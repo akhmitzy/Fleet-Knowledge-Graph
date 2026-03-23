@@ -40,4 +40,20 @@ We build a **graph-based model** where:
 (Vehicle)-[:LOCATED_IN]->(Location)
 (Demand)-[:AT]->(Location)
 (Vehicle)-[:MATCHES]->(Demand)
+```
+## 📂 Project Structure
+## 2️⃣ Optional: Add syntax highlighting
+
+For trees, there isn’t a real programming language, but some people use `text` or `bash` for slight formatting:
+
+```markdown
+```text
+fleet-knowledge-graph/
+│
+├── data/
+├── src/
+├── notebooks/
+├── requirements.txt
+└── README.md
+```
 
