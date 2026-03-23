@@ -1,2 +1,38 @@
 # Fleet-Knowledge-Graph
 Fleet Knowledge Graph for Demand-Aware Vehicle Allocation
+
+# Fleet Knowledge Graph for Demand-Aware Vehicle Allocation
+
+## 🚗 Overview
+This project demonstrates how a **Knowledge Graph (Neo4j)** can be used to improve **fleet strategy and planning decisions**.
+
+It models relationships between:
+- Vehicles
+- Locations
+- Demand
+- Reservations
+
+and answers key business questions such as:
+- Where do we have vehicle shortages?
+- How should we rebalance the fleet?
+- What is the revenue impact?
+
+---
+
+## 🎯 Business Problem
+Fleet operators often face:
+- Underutilized vehicles in low-demand areas
+- Shortages in high-demand locations
+- Inefficient rebalancing decisions
+
+---
+
+## 💡 Solution
+We build a **graph-based model** where:
+- Vehicles are connected to locations
+- Demand is linked to locations and time
+- Queries identify shortages and rebalancing opportunities
+
+---
+
+## 🧠 Graph Model
