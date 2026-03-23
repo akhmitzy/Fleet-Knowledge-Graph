@@ -42,12 +42,9 @@ We build a **graph-based model** where:
 (Vehicle)-[:MATCHES]->(Demand)
 ```
 ## 📂 Project Structure
-## 2️⃣ Optional: Add syntax highlighting
-
-For trees, there isn’t a real programming language, but some people use `text` or `bash` for slight formatting:
+## 2️⃣ syntax highlighting
 
 ```markdown
-```text
 fleet-knowledge-graph/
 │
 ├── data/
