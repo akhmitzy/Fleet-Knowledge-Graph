@@ -42,7 +42,6 @@ We build a **graph-based model** where:
 (Vehicle)-[:MATCHES]->(Demand)
 ```
 ## 📂 Project Structure
-## 2️⃣ syntax highlighting
 
 ```markdown
 fleet-knowledge-graph/
@@ -53,4 +52,50 @@ fleet-knowledge-graph/
 ├── requirements.txt
 └── README.md
 ```
+
+## ⚙️ Setup 
+
+### 1. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+## ⚙️ Run Neo4j (locally)
+
+-Download: https://neo4j.com/download/
+-Default:
+-URI: bolt://localhost:7687
+-user: neo4j
+-password: password
+
+## ▶️ Run Project
+
+python src/build_graph.py
+python src/queries.py
+
+## 🔍 Example Insights
+-Shortage Detection
+-Identifies locations where demand exceeds supply.
+-Fleet Rebalancing
+-Suggests moving vehicles from low-demand to high-demand areas.
+
+## 📈 Example Output
+
+Location: Miami | Demand: 45 | Supply: 10 | Shortage: 35
+
+## 🚀 Future Improvements
+
+-Integrate real-time data (e.g., telematics platforms like Samsara)
+-Add pricing optimization
+-Build dashboard (Streamlit)
+
+## 💼 Resume Bullet
+
+Built a Neo4j-based knowledge graph to model fleet vehicles, locations, and demand, enabling demand-aware allocation and rebalancing decisions.
+
+---
+
+# 📦 requirements.txt
+-neo4j
+-pandas
 
