@@ -36,3 +36,8 @@ We build a **graph-based model** where:
 ---
 
 ## 🧠 Graph Model
+```cypher
+(Vehicle)-[:LOCATED_IN]->(Location)
+(Demand)-[:AT]->(Location)
+(Vehicle)-[:MATCHES]->(Demand)
+
