@@ -181,65 +181,9 @@ if __name__ == "__main__":
     print("Graph successfully built.")
 ```
 
-from neo4j import GraphDatabase
-import pandas as pd
-
-URI = "bolt://localhost:7687"
-AUTH = ("neo4j", "password")
-
-driver = GraphDatabase.driver(URI, auth=AUTH)
-
-def clear_db(tx):
-    tx.run("MATCH (n) DETACH DELETE n")
-
-def create_vehicle(tx, vid, vtype, location):
-    tx.run("""
-        MERGE (v:Vehicle {id: $vid})
-        SET v.type = $vtype
-        WITH v
-        MERGE (l:Location {name: $location})
-        MERGE (v)-[:LOCATED_IN]->(l)
-    """, vid=vid, vtype=vtype, location=location)
-
-def create_demand(tx, location, date, vtype, demand):
-    tx.run("""
-        MERGE (d:Demand {location: $location, date: $date, vehicle_type: $vtype})
-        SET d.demand = $demand
-        WITH d
-        MERGE (l:Location {name: $location})
-        MERGE (d)-[:AT]->(l)
-    """, location=location, date=date, vtype=vtype, demand=demand)
-
-def load_data():
-    vehicles = pd.read_csv("data/vehicles.csv")
-    demand = pd.read_csv("data/demand.csv")
-
-    with driver.session() as session:
-        session.execute_write(clear_db)
-
-        for _, row in vehicles.iterrows():
-            session.execute_write(
-                create_vehicle,
-                row["vehicle_id"],
-                row["type"],
-                row["location"]
-            )
-
-        for _, row in demand.iterrows():
-            session.execute_write(
-                create_demand,
-                row["location"],
-                row["date"],
-                row["vehicle_type"],
-                row["demand"]
-            )
-
-if __name__ == "__main__":
-    load_data()
-    print("Graph successfully built.")
-
 # 📁 src/queries.py
 
+```python
 from neo4j import GraphDatabase
 
 URI = "bolt://localhost:7687"
@@ -285,4 +229,6 @@ def run_queries():
 
 if __name__ == "__main__":
     run_queries()
+
+```
     
