@@ -263,3 +263,33 @@ We create a notebook with:
 - Integration with real-time telematics (like Samsara)
 - and much more
 
+# 🧾 RESUME
+
+To include:
+
+🔹 Business Problem
+
+“Fleet underutilization due to poor allocation across locations”
+
+🔹 Solution
+
+“Knowledge graph modeling relationships between vehicles, demand, and geography”
+
+🔹 Key Results
+
+Identified shortage locations
+
+Suggested rebalancing strategy
+
+Estimated revenue uplift
+
+## 🚀 to be in use
+
+Some of these:
+
+Neo4j Bloom screenshots
+
+simple dashboard (Streamlit)
+
+network visualization (NetworkX)
+
