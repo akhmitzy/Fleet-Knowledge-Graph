@@ -237,6 +237,17 @@ Location | Type | Demand | Supply | Shortage
 Miami    | SUV  | 45     | 1      | 44
 Orlando  | Sedan| 30     | 1      | 29
 ```
+
+
+# 📸 Graph Visualization (to be provided)
+![Graph](docs/graph.png)
+
+# 📊 Shortage Detection
+![Shortage](docs/shortage.png)
+
+# 🔄 Rebalancing
+![Rebalance](docs/rebalance.png)
+
 # 📁 Note about notebooks
 
 We create a notebook with:
