@@ -32,7 +32,7 @@ We build a **graph-based model** where:
 
 ---
 
-## 🧠 Graph Model
+## 🧠 Graph Model (Neo4j)
 ```cypher
 (Vehicle)-[:LOCATED_IN]->(Location)
 (Demand)-[:AT]->(Location)
@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ## ⚙️ Run Neo4j (locally)
 
-- Download neo4j
+- Download Neo4j
 - Default:
 - URI: bolt://localhost:7687
 
