@@ -59,11 +59,9 @@ pip install -r requirements.txt
 
 ## ⚙️ Run Neo4j (locally)
 
-- Download: https://neo4j.com/download/
+- Download neo4j
 - Default:
 - URI: bolt://localhost:7687
-- user: neo4j
-- password: password
 
 ## ▶️ Run Project
 
@@ -111,11 +109,12 @@ V5,Sedan,Miami,15000,available
 ```
 # 📁 data/demand.csv
 
+```csv
 location,date,vehicle_type,demand
 Miami,2026-04-01,SUV,45
 Orlando,2026-04-01,Sedan,30
 Tampa,2026-04-01,SUV,20
-
+```
 # 📁 src/build_graph.py
 
 ```python
@@ -231,7 +230,7 @@ if __name__ == "__main__":
 
 # 📸 2️⃣ Query Results — Shortage Detection
 
-What your output should look like:
+What the output should look like:
 Location | Type | Demand | Supply | Shortage
 Miami    | SUV  | 45     | 1      | 44
 Orlando  | Sedan| 30     | 1      | 29
