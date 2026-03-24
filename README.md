@@ -91,13 +91,13 @@ Built a Neo4j-based knowledge graph to model fleet vehicles, locations, and dema
 
 ---
 
-# 📦 requirements.txt
+## 📦 requirements.txt
 - neo4j
 - pandas
 
 ---
 
-# 📁 data/vehicles.csv
+## 📁 data/vehicles.csv
 
 ```csv
 vehicle_id,type,location,mileage,status
@@ -107,7 +107,7 @@ V3,SUV,Tampa,40000,maintenance
 V4,SUV,Orlando,20000,available
 V5,Sedan,Miami,15000,available
 ```
-# 📁 data/demand.csv
+## 📁 data/demand.csv
 
 ```csv
 location,date,vehicle_type,demand
@@ -115,7 +115,7 @@ Miami,2026-04-01,SUV,45
 Orlando,2026-04-01,Sedan,30
 Tampa,2026-04-01,SUV,20
 ```
-# 📁 src/build_graph.py
+## 📁 src/build_graph.py
 
 ```python
 
@@ -177,7 +177,7 @@ if __name__ == "__main__":
     print("Graph successfully built.")
 ```
 
-# 📁 src/queries.py
+## 📁 src/queries.py
 
 ```python
 from neo4j import GraphDatabase
@@ -228,7 +228,7 @@ if __name__ == "__main__":
 
 ```
 
-# 📸 2️⃣ Query Results — Shortage Detection
+## 📸 2️⃣ Query Results — Shortage Detection
 
 What the output should look like:
 
@@ -239,16 +239,16 @@ Orlando  | Sedan| 30     | 1      | 29
 ```
 
 
-# 📸 Graph Visualization (to be provided)
+## 📸 Graph Visualization (to be provided)
 ![Graph](docs/graph.png)
 
-# 📊 Shortage Detection
+## 📊 Shortage Detection
 ![Shortage](docs/shortage.png)
 
-# 🔄 Rebalancing
+## 🔄 Rebalancing
 ![Rebalance](docs/rebalance.png)
 
-# 📁 Note about notebooks
+## 📁 Note about notebooks
 
 We create a notebook with:
 - graph visualization (optional)
