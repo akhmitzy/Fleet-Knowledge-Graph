@@ -231,4 +231,26 @@ if __name__ == "__main__":
     run_queries()
 
 ```
-    
+
+# 📸 2️⃣ Query Results — Shortage Detection
+
+What your output should look like:
+Location | Type | Demand | Supply | Shortage
+Miami    | SUV  | 45     | 1      | 44
+Orlando  | Sedan| 30     | 1      | 29
+
+# 📁 Note about notebooks
+
+We create a notebook with:
+- graph visualization (optional)
+- run queries
+- explained results   
+
+## 🚀 Optional Upgrade Ideas (for the actual project)
+
+- Streamlit dashboard
+- Florida-specific demand simulation 
+- Pricing model
+- Integration with real-time telematics (like Samsara)
+- and much more
+
