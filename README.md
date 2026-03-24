@@ -231,10 +231,12 @@ if __name__ == "__main__":
 # 📸 2️⃣ Query Results — Shortage Detection
 
 What the output should look like:
+
+```markdown
 Location | Type | Demand | Supply | Shortage
 Miami    | SUV  | 45     | 1      | 44
 Orlando  | Sedan| 30     | 1      | 29
-
+```
 # 📁 Note about notebooks
 
 We create a notebook with:
