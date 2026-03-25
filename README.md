@@ -1,7 +1,7 @@
 # Fleet Knowledge Graph for Demand-Aware Vehicle Allocation
 
 ## 🚗 Overview
-This project SKEMATICALLY demonstrates how a **Knowledge Graph (Neo4j)** can be used to improve **fleet strategy and planning decisions**.
+This project SCHEMATICALLY demonstrates how a **Knowledge Graph (Neo4j)** can be used to improve **fleet strategy and planning decisions**.
 
 It models relationships between:
 - Vehicles
