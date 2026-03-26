@@ -1,0 +1,6 @@
+vehicle_id,type,location,mileage,status
+V1,SUV,Miami,30000,available
+V2,Sedan,Orlando,25000,available
+V3,SUV,Tampa,40000,maintenance
+V4,SUV,Orlando,20000,available
+V5,Sedan,Miami,15000,available
