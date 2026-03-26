@@ -1,1 +1,4 @@
-
+location,date,vehicle_type,demand
+Miami,2026-04-01,SUV,45
+Orlando,2026-04-01,Sedan,30
+Tampa,2026-04-01,SUV,20
