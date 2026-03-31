@@ -65,8 +65,9 @@ pip install -r requirements.txt
 
 ## ▶️ Run Project
 
-python src/build_graph.py
-python src/queries.py
+FleetGAnalysis.ipynb   having part
+build_graph.py
+queries.py
 
 ## 🔍 Example Insights
 - Shortage Detection
@@ -85,7 +86,7 @@ Location: Miami | Demand: 45 | Supply: 10 | Shortage: 35
 - Build dashboard (Streamlit)
 - and much more with AI
 
-## 💼 Resume Bullet
+## 💼 Resuming Bullet
 
 Built a Neo4j-based knowledge graph to model fleet vehicles, locations, and demand, enabling demand-aware allocation and rebalancing decisions.
 
@@ -247,6 +248,9 @@ Orlando  | Sedan| 30     | 1      | 29
 
 ## 🔄 Rebalancing
 ![Rebalance](docs/rebalance.png)
+
+## 🔄 Revenue (we can consider on optimal allocations based on distances, time, etc. Here is the simple revenue calc:
+![Revenue](docs/revenue.png)
 
 ## 📁 Note about notebooks
 
