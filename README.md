@@ -304,6 +304,13 @@ We create a notebook with:
 
 Run:
 
+Features:
+- Fleet shortage detection
+- Rebalancing suggestions
+- Revenue simulation
+
+![Dashboard](docs/dashboard.png)
+
 # 🧾 RESUME
 
 To include:
