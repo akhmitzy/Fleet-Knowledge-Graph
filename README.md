@@ -319,7 +319,7 @@ Interactive dashboard with:
 - Rebalancing recommendations
 - Revenue simulation
 
-![Dashboard](docs/dashboard_hertz_style.png)
+![Dashboard](docs/more_hertz_style.png)
 
 # 🧾 RESUME
 
