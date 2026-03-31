@@ -281,7 +281,7 @@ Orlando  | Sedan| 30     | 1      | 29
 ## 🔄 Rebalancing
 ![Rebalance](docs/rebalance.png)
 
-## 🔄 Revenue (we can consider an optimal allocations based on distances, time, etc. Here is the simple revenue calc:
+## 🔄 Revenue (we can consider an optimal allocations based on distances, time, etc. Here is the simple revenue calc):
 ![Revenue](docs/revenue.png)
 
 ## 📁 Note about notebooks
