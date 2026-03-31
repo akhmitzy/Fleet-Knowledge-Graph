@@ -35,7 +35,7 @@ Graph machine learning:
 ## 🚗 Overview
 This project SCHEMATICALLY demonstrates how a **Knowledge Graph (Neo4j)** can be used to improve **fleet strategy and planning decisions**.
 
-It models relationships between:
+It models relationships between (5 vehicles, 3 locations):
 - Vehicles
 - Locations
 - Demand
