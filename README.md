@@ -3,23 +3,27 @@
 Using graph data:
 
 Graph modeling and construction: 
+
 • Identify relationships between data points
 • Describe a graph structure
 • Import data into a graph database
 
-Graph query language
+Graph query language:
+
 • Identify graph patterns
 • Traverse connections
 • Aggregate data
 • Perform exploratory data analysis
 
-Graph algorithms and inferred networks
+Graph algorithms and inferred networks:
+
 • Find the most important or critical nodes
 • Group nodes into communities
 • Identify similar nodes
 • Analyze indirect relationships
 
-Graph machine learning
+Graph machine learning:
+
 • Extract features from graphs
 • Predict node labels
 • Predict new connections
