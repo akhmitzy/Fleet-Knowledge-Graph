@@ -239,7 +239,7 @@ Orlando  | Sedan| 30     | 1      | 29
 ```
 
 
-## 📸 Graph Visualization (to be provided)
+## 📸 Graph Visualization
 ![Graph](docs/graph.png)
 
 ## 📊 Shortage Detection
