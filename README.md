@@ -311,6 +311,16 @@ Features:
 
 ![Dashboard](docs/dashboard.png)
 
+## 🖥️ Fleet Strategy Dashboard (Hertz-style)
+
+Interactive dashboard with:
+- KPI metrics (demand, supply, utilization)
+- Shortage detection
+- Rebalancing recommendations
+- Revenue simulation
+
+![Dashboard](docs/dashboard_hertz_style.png)
+
 # 🧾 RESUME
 
 To include:
